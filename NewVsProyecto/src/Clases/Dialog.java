@@ -47,26 +47,26 @@ public class Dialog extends JDialog {
 		this.miFrame = miFrame;
 		setSize(400, 500);
 		if (numero == 1) {
-			iniciarComponentes();
+			componentesCrearEmpleado();
 
 		}
 		if (numero == 2) {
-			iniciarComponentes2();
+			componentesEditarEmpleado();
 		}
 
 	}
 
-	private void iniciarComponentes2() {
-		componentes();
-
-	}
-
-	private void iniciarComponentes() {
+	private void componentesCrearEmpleado() {
 		// TODO Auto-generated method stub
 		componentes();
 		chek = new JCheckBox();
 		panel6.add(etq5);
 		panel6.add(chek);
+
+	}
+	
+	private void componentesEditarEmpleado() {
+		componentes();
 
 	}
 

@@ -1,7 +1,7 @@
 package Clases;
 
 import Clases.MyListener;
-import Clases.Persona;
+import ClaseDeDatos.Persona;
 
 import java.awt.BorderLayout;
 import java.awt.Font;
@@ -52,6 +52,7 @@ public class Frame extends JInternalFrame {
 		setResizable(true);
 		setClosable(true);
 		setIconifiable(true);
+		
 		//setClosable(true);
 		
 

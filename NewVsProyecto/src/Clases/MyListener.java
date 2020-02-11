@@ -5,6 +5,8 @@ import java.awt.event.ActionListener;
 
 import javax.swing.JOptionPane;
 
+import ClaseDeDatos.Persona;
+
 public class MyListener implements ActionListener{
 
 	

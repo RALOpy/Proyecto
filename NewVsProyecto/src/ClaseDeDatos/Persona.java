@@ -1,4 +1,6 @@
-package Clases;
+package ClaseDeDatos;
+
+
 
 public class Persona {
 
@@ -15,7 +17,7 @@ public class Persona {
         	super();
 		this.nombre = nombre;
 		this.apellido = apellido;
-		this.direccion = direccion;
+		this.direccion = direccion;;
 		this.edad = edad;
 		this.estado = estado;
 		
