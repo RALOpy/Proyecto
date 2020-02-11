@@ -98,7 +98,7 @@ public class FrameGlobal extends JFrame {
 		setVisible(false);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setSize(1000, 700);
-		setTitle(nomEmpresa);
+		setTitle("Mi empresa");
 		
 
 		barraMenu = new JMenuBar();
