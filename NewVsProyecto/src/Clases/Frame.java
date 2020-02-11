@@ -50,6 +50,8 @@ public class Frame extends JInternalFrame {
 		setSize(600, 600);
 		setLocation(200, 10);
 		setResizable(true);
+		setClosable(true);
+		setIconifiable(true);
 		//setClosable(true);
 		
 
@@ -95,7 +97,7 @@ public class Frame extends JInternalFrame {
 		lbtext1 = new JLabel("Futuro paginado");
 		panelSur1.add(lbtext1);
 
-		btnAgregar = new JButton("IASJNDEIJKN");
+		btnAgregar = new JButton("Agregar");
 		btnAgregar.addActionListener(new MyListenerFrame(this));
 		btnModificar = new JButton("Modificar");
 		btnModificar.addActionListener(new MyListenerFrame(this));
