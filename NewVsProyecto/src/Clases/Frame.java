@@ -95,7 +95,7 @@ public class Frame extends JInternalFrame {
 		lbtext1 = new JLabel("Futuro paginado");
 		panelSur1.add(lbtext1);
 
-		btnAgregar = new JButton("Agregar");
+		btnAgregar = new JButton("IASJNDEIJKN");
 		btnAgregar.addActionListener(new MyListenerFrame(this));
 		btnModificar = new JButton("Modificar");
 		btnModificar.addActionListener(new MyListenerFrame(this));
